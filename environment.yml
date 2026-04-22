@@ -1,0 +1,19 @@
+name: extreme-rainfall-py311
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - xarray
+  - scipy
+  - matplotlib
+  - cartopy
+  - jupyterlab
+  - pyarrow
+  - requests
+  - pyyaml
+  - netcdf4
+  - cfgrib
+  - eccodes
+  - pip

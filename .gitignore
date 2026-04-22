@@ -1,0 +1,38 @@
+# Secrets
+api_key.txt
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+build/
+dist/
+*.o
+*.mod
+*.out
+*.exe
+
+# Data
+data_raw/
+data_processed/
+
+# Large data products
+*.nc
+*.nc4
+*.grib
+*.grib2
+*.zarr
+*.parquet
+*.feather
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
